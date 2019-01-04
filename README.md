@@ -86,6 +86,16 @@ class Product extends Model
 }
 ```
 
+Now you can access your decorated properties as follows:
+
+```php
+$product = Product::find(1);
+
+$product->present()->amount;
+```
+
+Enjoy!
+
 ## Open ends
 
 Packages is not yet fully featured, still needs to do:
