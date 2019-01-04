@@ -1,6 +1,6 @@
 <?php
 
-namespace MartijnThomas\Presenters;
+namespace MartijnThomas\Presenter;
 
 use Illuminate\Database\Eloquent\Model;
 

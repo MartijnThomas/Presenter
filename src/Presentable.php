@@ -1,13 +1,13 @@
 <?php
 
-namespace MartijnThomas\Presenters;
+namespace MartijnThomas\Presenter;
 
 trait Presentable
 {
     /**
      * Bring in the Presenter
      *
-     * @return \Jonril\Presenters\PresenterAbstract;
+     * @return \MartijnThomas\Presenter\PresenterAbstract;
      */
     public function present()
     {
