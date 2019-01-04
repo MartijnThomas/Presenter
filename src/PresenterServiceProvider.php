@@ -1,6 +1,6 @@
 <?php
 
-namespace Jonril\Providers;
+namespace MartijnThomas\Presenter;
 
 use Illuminate\Support\ServiceProvider;
 
