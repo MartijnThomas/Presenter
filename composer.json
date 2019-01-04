@@ -1,0 +1,29 @@
+{
+    "name": "martijnthomas/presenter",
+    "description": "Decorating Eloquent Models",
+    "authors": [
+        {
+            "name": "Martijn Thomas",
+            "email": "martijn@mthomas.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=7.0",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7|6.2|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MartijnThomas\\Presenter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MartijnThomas\\Presenter\\PresenterServiceProvider"
+            ]
+        }
+    }
+}
